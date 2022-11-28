@@ -1,6 +1,6 @@
 ### In Progress...
 
-# Spotify clone with REACT
+# Airbnb clone with REACT
   A copy of the Airbnb app to learn and improve coding skills with the React framework.
   (Next.js, Tailwind CSS, Mapbox, Calendar & Date Picker)
   
@@ -15,7 +15,8 @@
 
 ## What I have learned in this project are:
 
-  1. 
+  1. Using Next.JS image component instead of regular `<img />` element because of a variety of built-in performance optimizations <sub>[Read More...](https://nextjs.org/docs/basic-features/image-optimization)</sub>
+  2. Learning `Flex` css <sub>[Read More...](https://flexboxfroggy.com/)</sub>
 
 ## Dependencies
   - Tailwind @heroicons/react [link](https://github.com/tailwindlabs/heroicons)
@@ -23,6 +24,15 @@
 
 ## Note
 
+While we are using a Next.JS image component with a hostname in `src`, we need to add that hostname in `next.config.js` like this: <sub>[Read More...](https://nextjs.org/docs/api-reference/next/image#domains)</sub>
+
+```tsx
+module.exports = {
+  images: {
+    domains: ['links.papareact.com']
+  }
+}
+``` 
 
 
 
