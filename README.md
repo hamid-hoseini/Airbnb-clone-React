@@ -20,6 +20,7 @@
 
 ## Dependencies
   - Tailwind @heroicons/react [link](https://github.com/tailwindlabs/heroicons)
+  - Tailwind Scrollbar Hide [link](https://www.npmjs.com/package/tailwind-scrollbar-hide)
 
 
 ## Note
