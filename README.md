@@ -18,6 +18,7 @@
   1. Using Next.JS image component instead of regular `<img />` element because of a variety of built-in performance optimizations <sub>[Read More...](https://nextjs.org/docs/basic-features/image-optimization)</sub>
   2. Learning `Flex` css <sub>[Read More...](https://flexboxfroggy.com/)</sub>
   3. Using React Date Range, a date library agnostic React component for choosing dates and date ranges <sub>[Read More...](https://github.com/hypeserver/react-date-range)</sub>
+  4. Using Next/Router to access the router object inside any function component in our app, we can use the useRouter hook <sub>[Read More...](https://nextjs.org/docs/api-reference/next/router)</sub>
 
 ## Dependencies
   - Tailwind @heroicons/react [link](https://github.com/tailwindlabs/heroicons)
