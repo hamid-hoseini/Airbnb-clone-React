@@ -3,6 +3,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import InfoCard from '../components/InfoCard'
 
 const Search = ({ searchResult }: any) => {
 
@@ -28,6 +29,22 @@ const Search = ({ searchResult }: any) => {
             <p className='button'>Rooms and Beds</p>
             <p className='button'>More filters</p>
           </div>
+
+          <div className='flex flex-col'>
+            {searchResult.map(({ img, location, title, description, star, price, total }: any) => (
+              <InfoCard 
+                key={img}
+                img={img}
+                location={location}
+                title={title}
+                description={description}
+                star={star}
+                price={price}
+                total={total}
+              />
+            ))}
+          </div>
+
         </section>
 
       </main>
@@ -39,7 +56,7 @@ const Search = ({ searchResult }: any) => {
 export default Search;
 
 export async function getServerSideProps() {
-  const searchResult = await fetch("https://links.papareact.com/isz")
+  const searchResult = await fetch("https://www.jsonkeeper.com/b/5NPS")
     .then((res) => res.json());
 
   return {
