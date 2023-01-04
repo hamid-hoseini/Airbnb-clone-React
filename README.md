@@ -1,5 +1,3 @@
-### In Progress...
-
 # Airbnb clone with REACT
   A copy of the Airbnb app to learn and improve coding skills with the React framework.
   (Next.js, Tailwind CSS, Mapbox, Calendar & Date Picker)
@@ -26,6 +24,7 @@
   - Tailwind Scrollbar Hide [link](https://www.npmjs.com/package/tailwind-scrollbar-hide)
   - React Date Range [link](https://github.com/hypeserver/react-date-range)
   - Bar Of Progress [link](https://www.npmjs.com/package/@badrap/bar-of-progress)
+  - React Map GL [link](https://github.com/visgl/react-map-gl)
 
 
 ## Note

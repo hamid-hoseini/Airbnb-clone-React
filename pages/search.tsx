@@ -4,6 +4,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import InfoCard from '../components/InfoCard'
+import Map from '../components/Map'
 
 const Search = ({ searchResult }: any) => {
 
@@ -44,9 +45,7 @@ const Search = ({ searchResult }: any) => {
               />
             ))}
           </div>
-
         </section>
-
       </main>
       <Footer />
     </div>
